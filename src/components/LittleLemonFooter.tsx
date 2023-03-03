@@ -1,23 +1,23 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
-export default function LittleLemonHeader() {
+export default function LittleLemonFooter() {
   return (
-    <View style={styles.headerScreen}>
-      <Text style={styles.headerText}>Little Lemon</Text>
+    <View style={styles.mainScreen}>
+      <Text style={styles.footerText}>All rights reserved by Littel Lemon, 2023</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  headerScreen: {
-    flex: 0.1,
+  mainScreen: {
+    flex: 0.05,
     backgroundColor: '#F4CE14',
     justifyContent: 'center',
     alignItems: 'center',
   },
-  headerText: {
-    fontSize: 30,
+  footerText: {
+    fontSize: 15,
     fontWeight: 'bold',
     color: 'black',
   },

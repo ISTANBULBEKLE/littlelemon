@@ -7,17 +7,18 @@
  *
  * @format
  */
-
 import * as React from 'react';
 import {StyleSheet, View} from 'react-native';
-
-// Import a local component here
 import LittleLemonHeader from './src/components/LittleLemonHeader';
+import LittleLemonFooter from './src/components/LittleLemonFooter';
+import LittleLemonBody from './src/components/LittleLemonBody';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <LittleLemonHeader />
+      <LittleLemonBody />
+      <LittleLemonFooter />
     </View>
   );
 }
