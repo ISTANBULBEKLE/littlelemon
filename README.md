@@ -9,5 +9,7 @@
 4. In case of platform specific issues follow the <https://reactnative.dev/docs/environment-setup> instructions.
 
 # How to run the project?
-1. To run with iOS simulator, run 'npx react-native run-ios'.
+1. To run with iOS simulator, run ```bash
+                                      npx react-native run-ios
+                                   ```
 2. To run with Android simulator, run 'npx react-native run-android'.
