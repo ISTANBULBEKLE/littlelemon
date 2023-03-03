@@ -4,8 +4,8 @@
 
 # How to build?
 1. The project is created react-native-community/react-native-template-typescript. This is actually the same with the template on   <https://reactnative.dev/docs/typescript> just with some twicks added to it. The catch is this template is fixed with a React Native version.
-2. Run ```npx react-native init MyApp --template react-native-template-typescript@6.12.10```.
-3. To build the project run <npx react-native start>
+2. To create the boilerplate React Native TypeScript project; run ```npx react-native init MyApp --template react-native-template-typescript@6.12.10```.
+3. To build the project run `npx react-native start`.
 4. In case of platform specific issues follow the <https://reactnative.dev/docs/environment-setup> instructions.
 
 # How to run the project?
