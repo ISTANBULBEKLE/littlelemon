@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
+import MenuItems from './MenuItems';
 
 export default function LittleLemonBody() {
   return (
@@ -11,6 +12,7 @@ export default function LittleLemonBody() {
           and classic cocktails in a lively but casual environment. We would
           love to hear more about your experience with us!
         </Text>
+        <MenuItems />
       </View>
     </View>
   );
@@ -36,9 +38,10 @@ const styles = StyleSheet.create({
     color: 'black',
   },
   headerInlineText: {
-    flex: 0.8,
+    flex: 0.6,
     fontSize: 20,
     fontWeight: 'normal',
-    color: 'black',
+    color: 'white',
+    textAlign: 'center',
   },
 });
