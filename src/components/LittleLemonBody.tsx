@@ -2,15 +2,15 @@ import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import MenuItems from './MenuItems';
 
-export default function LittleLemonBody() {
+export default function LittleLemonBody({name}) {
   return (
     <View style={styles.bodyScreen}>
       <View style={styles.textContainer}>
         <Text style={styles.headerText}>Welcome to Little Lemon</Text>
         <Text style={styles.headerInlineText}>
-          Little Lemon is a charming neighborhood bistro that serves simple food
-          and classic cocktails in a lively but casual environment. We would
-          love to hear more about your experience with us!
+          {name} is a charming neighborhood bistro that serves simple food and
+          classic cocktails in a lively but casual environment. We would love to
+          hear more about your experience with us!
         </Text>
         <MenuItems />
       </View>

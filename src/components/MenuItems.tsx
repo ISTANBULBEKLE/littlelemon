@@ -8,16 +8,26 @@ export default function MenuItems() {
     'Chicken Doner',
     'Chicken Kebap',
     'Fish and Chips',
+    'Fish and Chips',
+    'Fish and Chips',
+    'Crackstick',
+    'Dolma',
+    'Chicken Doner',
+    'Chicken Kebap',
+    'Fish and Chips',
+    'Crackstick',
+    'Dolma',
+    'Chicken Doner',
   ];
 
   return (
     <View style={styles.menuScreen}>
       <ScrollView
         horizontal={false}
-        indicatorStyle={'white'}
+        indicatorStyle="white"
         style={styles.listStyle}>
         <Text style={styles.menuListStyle}> Menu List</Text>
-        <Text style={styles.menuListItemStyle}>{menuList[0]}</Text>
+        <Text style={styles.menuListItemStyle}>{menuList}</Text>
       </ScrollView>
     </View>
   );
@@ -26,21 +36,25 @@ export default function MenuItems() {
 const styles = StyleSheet.create({
   menuScreen: {
     flex: 1,
-    margin: 10,
-    padding: 10,
-    backgroundColor: '#381E57',
   },
   listStyle: {
+    flex: 1,
     opacity: 0.6,
-    borderRadius: 2,
+    borderRadius: 6,
+    borderColor: 'white',
+    borderStyle: 'solid',
+    borderWidth: 1,
+    marginHorizontal: 100,
   },
   menuListStyle: {
-    fontSize: 20,
+    fontSize: 30,
     fontWeight: 'bold',
-    color: 'white',
+    color: 'black',
     marginBottom: 10,
   },
   menuListItemStyle: {
-    color: 'white',
+    color: 'yellow',
+    fontWeight: 'bold',
+    fontSize: 25,
   },
 });

@@ -12,12 +12,12 @@ import {StyleSheet, View} from 'react-native';
 import LittleLemonHeader from './src/components/LittleLemonHeader';
 import LittleLemonFooter from './src/components/LittleLemonFooter';
 import LittleLemonBody from './src/components/LittleLemonBody';
-
+const name: any = 'LittleLemon';
 export default function App() {
   return (
     <View style={styles.container}>
       <LittleLemonHeader />
-      <LittleLemonBody />
+      <LittleLemonBody name={name} />
       <LittleLemonFooter />
     </View>
   );
